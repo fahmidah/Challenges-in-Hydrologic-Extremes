@@ -1,0 +1,104 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2023-06-16 10:55:20 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  New York Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 04273800 LITTLE AUSABLE RIVER NEAR VALCOUR NY
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	04273800	1992-03-27		669		3.05	2		1992-03-11		5.42	1
+USGS	04273800	1993-04-23		1160		4.37	2		1993-03-30		5.48	1
+USGS	04273800	1994-04-16		673		3.55						
+USGS	04273800	1995-03-16		218		2.31	2		1995-03-12		4.25	1
+USGS	04273800	1996-01-19		1050		3.89	2		1996-02-04		5.15	1
+USGS	04273800	1996-11-09		2840		7.06						
+USGS	04273800	1998-06-27		7210		13.78						
+USGS	04273800	1999-03-22		959		3.60	2		1998-12-31		4.27	1
+USGS	04273800	2000-05-09		1760		4.86	2		2000-02-28		5.49	1
+USGS	04273800	2001-04-13		1600		4.62	2		2001-04-12		4.66	1
+USGS	04273800	2002-06-12		461		3.16						
+USGS	04273800	2003-03-21		549		3.05	2		2002-12-19		3.82	1
+USGS	04273800	2004-05-25		527		2.90	2		2004-03-02		5.35	1
+USGS	04273800	2005-06-17		1320		3.90	2		2004-12-21		4.31	1
+USGS	04273800	2005-10-26		769		3.27	2		2006-02-28		3.77	1
+USGS	04273800	2007-04-19		514		2.88	2		2007-01-22		4.24	1
+USGS	04273800	2008-01-09		637		3.08	2		2008-01-25		3.92	1
+USGS	04273800	2009-03-30		184		2.14	2		2008-12-13		5.80	1
+USGS	04273800	2010-03-24		951		3.17	2		2010-02-02		4.16	1
+USGS	04273800	2011-08-29		2240	9	4.14	2		2011-03-08		5.94	1
+USGS	04273800	2012-04-24		508		2.62	2		2012-01-06		3.60	1
+USGS	04273800	2013-06-12		1700		4.40						
+USGS	04273800	2014-04-08		736		2.90	2		2014-02-24		3.00	1
+USGS	04273800	2015-06-13		649		2.76	2		2015-03-11		3.91	1
+USGS	04273800	2016-04-09		312		2.26	2		2016-02-25		3.52	1
+USGS	04273800	2017-07-01		830		2.95	2		2017-02-19		4.37	1
+USGS	04273800	2018-04-30	12:45	654		2.74	2		2018-01-25	0900	4.27	1
+USGS	04273800	2019-03-31	20:00	410		2.42	2		2019-01-15	0100	5.65	1
+USGS	04273800	2020-03-11	02:15	431		2.45	2		2020-01-07	2230	4.42	1
+USGS	04273800	2021-04-17	13:30	337		2.31	2		2021-03-18	2130	3.31	1
