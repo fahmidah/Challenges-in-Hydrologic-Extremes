@@ -1,0 +1,139 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2023-06-16 10:36:36 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  Vermont Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01154000 SAXTONS RIVER AT SAXTONS RIVER, VT
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01154000	1936-03-00		9620	7,8,Bd							
+USGS	01154000	1938-09-00				17.90	Bd					
+USGS	01154000	1941-02-08		1680		6.82						
+USGS	01154000	1942-03-09		2040		8.62	1					
+USGS	01154000	1943-05-12		2040		7.37						
+USGS	01154000	1943-11-09		2460		8.00						
+USGS	01154000	1945-04-26		2460		8.00						
+USGS	01154000	1946-03-09		1700	2							
+USGS	01154000	1947-04-12		1880		7.14						
+USGS	01154000	1948-03-22		3450		9.17						
+USGS	01154000	1948-12-30		4660		10.51						
+USGS	01154000	1950-04-20		1820		7.09						
+USGS	01154000	1951-03-31		4070		9.52						
+USGS	01154000	1952-06-01		5430		11.37						
+USGS	01154000	1953-03-24		4660		10.51						
+USGS	01154000	1954-03-03		2290		7.74						
+USGS	01154000	1955-08-13		2160		7.58						
+USGS	01154000	1955-10-31		3080		8.72						
+USGS	01154000	1957-01-23		1200								
+USGS	01154000	1957-12-21		2360		7.82						
+USGS	01154000	1959-04-03		2520		8.03	2		1959-01-22		12.34	1
+USGS	01154000	1960-09-12		5610		11.57						
+USGS	01154000	1961-04-23		1780		7.05						
+USGS	01154000	1962-04-01		2480		7.98						
+USGS	01154000	1962-12-06		1830		7.12						
+USGS	01154000	1964-04-14		2050		7.43						
+USGS	01154000	1965-04-16		821		5.48						
+USGS	01154000	1966-03-25		1260		6.28						
+USGS	01154000	1967-04-03		2240		7.67						
+USGS	01154000	1968-04-25		3460		9.18						
+USGS	01154000	1969-07-29		4450		10.28						
+USGS	01154000	1970-04-02		2070		7.45	2		1970-02-03		9.91	1
+USGS	01154000	1971-04-20		1710		6.94						
+USGS	01154000	1972-04-19		2190		7.61						
+USGS	01154000	1973-06-30		7510		13.26						
+USGS	01154000	1973-12-21		4090		9.88						
+USGS	01154000	1975-03-20		2050		7.43	2		1975-02-24		7.71	1
+USGS	01154000	1976-08-10		8460		14.06						
+USGS	01154000	1977-03-14		4250		10.08						
+USGS	01154000	1978-01-09		3740		9.49						
+USGS	01154000	1979-03-25		2940		8.61						
+USGS	01154000	1980-04-10		4710		10.58						
+USGS	01154000	1981-02-24		2060		7.52	2		1981-02-20		7.86	1
+USGS	01154000	1982-04-18		2550		8.15						
+USGS	01154000	2002-05-13		1820		7.02						
+USGS	01154000	2003-03-29		2980		8.57						
+USGS	01154000	2003-10-29		4100		9.88						
+USGS	01154000	2005-04-03	07:15	4490		10.30						
+USGS	01154000	2006-05-14	16:00	4240		10.03						
+USGS	01154000	2007-04-16	19:30	3410		9.09						
+USGS	01154000	2008-03-08	21:00	3080		8.51						
+USGS	01154000	2008-10-26	02:00	2910		8.25						
+USGS	01154000	2010-03-23	11:00	3230		8.64						
+USGS	01154000	2011-08-28	14:30	21600		19.58						
+USGS	01154000	2011-10-14	18:45	2360		7.32						
+USGS	01154000	2012-12-21		2020		6.91						
+USGS	01154000	2014-03-31	02:00	1610		6.36	2		2014-03-30	1115	6.60	1
+USGS	01154000	2014-10-23	15:00	1500		6.26						
+USGS	01154000	2016-02-25	04:15	3460		8.48						
+USGS	01154000	2017-06-06	19:15	3090		8.11						
+USGS	01154000	2017-10-30	03:00	3210		8.23						
+USGS	01154000	2018-12-21	17:15	2350		7.32	2		2019-02-02	1530	7.38	1
+USGS	01154000	2019-12-14	12:30	1640		6.46						
+USGS	01154000	2021-07-29	23:45	10500		13.75						
+USGS	01154000	2022-04-08	07:00	2690		7.69						
