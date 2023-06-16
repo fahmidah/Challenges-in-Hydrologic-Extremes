@@ -1,0 +1,175 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2023-06-16 10:44:57 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  West Virginia Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01611500 CACAPON RIVER NEAR GREAT CACAPON, WV
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01611500	1889-05-00		57500	7,Bd	24.70	Bd					
+USGS	01611500	1923-04-15		3860		6.30						
+USGS	01611500	1924-05-12		38000		19.32						
+USGS	01611500	1925-02-12		9260		9.80						
+USGS	01611500	1926-02-20		5430		7.50						
+USGS	01611500	1926-11-16		10000	2	10.20						
+USGS	01611500	1928-05-01		28300		17.38						
+USGS	01611500	1929-04-17		36000		20.00						
+USGS	01611500	1929-10-03		8880		9.60						
+USGS	01611500	1931-05-24		3620		6.10						
+USGS	01611500	1932-05-13		29700		17.90						
+USGS	01611500	1933-08-24		20600		14.60						
+USGS	01611500	1934-09-15		3620		6.10						
+USGS	01611500	1934-12-02		9260		9.80						
+USGS	01611500	1936-03-18		87600		30.10		1889				
+USGS	01611500	1937-04-26		47400		22.60						
+USGS	01611500	1937-10-28		23200		16.10						
+USGS	01611500	1939-02-04		13900		12.54						
+USGS	01611500	1940-04-21		9290		10.29						
+USGS	01611500	1941-04-06		6800		8.93						
+USGS	01611500	1942-05-23		13300		12.27						
+USGS	01611500	1942-10-16		52600		23.67						
+USGS	01611500	1944-05-07		8980		10.16						
+USGS	01611500	1945-09-19		13800		12.54						
+USGS	01611500	1946-06-03		6600		8.75						
+USGS	01611500	1947-03-15		3180		6.27						
+USGS	01611500	1948-04-14		13300		12.29						
+USGS	01611500	1949-06-29		15900		13.41						
+USGS	01611500	1950-02-02		7520		9.39						
+USGS	01611500	1950-12-05		19600		14.83						
+USGS	01611500	1952-04-28		18200		14.34						
+USGS	01611500	1952-11-22		16600		13.68						
+USGS	01611500	1954-03-02		27100		17.30						
+USGS	01611500	1955-08-19		55500		24.30						
+USGS	01611500	1956-03-15		6800		9.04						
+USGS	01611500	1957-04-06		8240		9.85						
+USGS	01611500	1958-03-28		5950		8.53						
+USGS	01611500	1959-06-03		12600		12.02						
+USGS	01611500	1960-05-09		22100		15.74						
+USGS	01611500	1961-02-20		12800		12.11						
+USGS	01611500	1962-03-22		16400		13.64						
+USGS	01611500	1963-03-20		19700		14.85						
+USGS	01611500	1964-03-05		8980		10.20	2		1964-01-26		14.84	1
+USGS	01611500	1965-03-06		10800		11.16						
+USGS	01611500	1966-05-01		3850		7.07	2		1966-02-14		7.25	1
+USGS	01611500	1967-03-08		17900		14.20						
+USGS	01611500	1968-03-17		10900		11.19						
+USGS	01611500	1969-03-26		1950		4.93						
+USGS	01611500	1970-01-30		7860		9.59						
+USGS	01611500	1971-02-14		9700		10.58						
+USGS	01611500	1972-06-22		45500		22.17						
+USGS	01611500	1973-04-28		10100		10.90						
+USGS	01611500	1973-12-27		17700		14.11						
+USGS	01611500	1975-03-20		24100		16.35						
+USGS	01611500	1976-01-01		17000		13.83						
+USGS	01611500	1976-10-10		27800		17.52						
+USGS	01611500	1978-01-26		20200		15.03						
+USGS	01611500	1979-02-26		16600		13.69						
+USGS	01611500	1980-05-01		11500		11.48						
+USGS	01611500	1981-04-14		3670		6.66						
+USGS	01611500	1982-06-14		15800		13.38						
+USGS	01611500	1983-04-25		14000		12.60						
+USGS	01611500	1984-02-15		20100		15.01						
+USGS	01611500	1985-02-12		24000		16.31						
+USGS	01611500	1985-11-05		44500		21.95						
+USGS	01611500	1987-04-17		18000		14.44						
+USGS	01611500	1988-05-07		19100		14.64						
+USGS	01611500	1989-05-17		7600		9.37						
+USGS	01611500	1989-11-17		6230		8.48						
+USGS	01611500	1991-03-24		15700		13.31						
+USGS	01611500	1992-04-22		10200		10.84						
+USGS	01611500	1993-03-05		26000		16.96						
+USGS	01611500	1993-11-28		14400		12.79						
+USGS	01611500	1995-01-16		11700		11.57						
+USGS	01611500	1996-01-19		51000		23.24	2		1996-09-08		24.90	1
+USGS	01611500	1996-11-09		10900		11.20						
+USGS	01611500	1997-11-08		12300		11.81						
+USGS	01611500	1999-03-19		3760		6.69						
+USGS	01611500	2000-02-19		8560		9.92						
+USGS	01611500	2001-04-12		4170		7.03	2					
+USGS	01611500	2002-04-22		6160		8.47						
+USGS	01611500	2003-09-20		33800		19.17						
+USGS	01611500	2003-12-11		14000		12.54						
+USGS	01611500	2005-03-29		9090		10.21						
+USGS	01611500	2005-11-30		10300		10.85						
+USGS	01611500	2007-04-16		19200		14.61						
+USGS	01611500	2008-04-21		10400		10.88						
+USGS	01611500	2009-05-05		12400		11.86						
+USGS	01611500	2010-03-14		17300		13.92						
+USGS	01611500	2011-05-18		17900		14.13						
+USGS	01611500	2011-12-08		9310		10.33						
+USGS	01611500	2012-10-30		20400		15.05						
+USGS	01611500	2014-05-16		19000		14.54						
+USGS	01611500	2015-03-06		3990		6.73						
+USGS	01611500	2016-02-04		8830		10.07						
+USGS	01611500	2017-05-06	05:45	8100		10.30						
+USGS	01611500	2018-06-03	23:15	24100		16.24						
+USGS	01611500	2018-12-16	10:15	15200		13.05						
+USGS	01611500	2020-05-01	06:00	9030		10.29						
+USGS	01611500	2021-03-01	11:15	9440		10.59						
+USGS	01611500	2022-05-08	01:15	14500		14.37						
