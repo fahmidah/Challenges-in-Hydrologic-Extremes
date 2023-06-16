@@ -1,0 +1,147 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2023-06-16 10:35:12 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  Virginia Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01663500 HAZEL RIVER AT RIXEYVILLE, VA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01663500	1937-04-26		43500	7	28.40						
+USGS	01663500	1942-08-09		5420		13.75						
+USGS	01663500	1942-10-15		60000	2	31.80						
+USGS	01663500	1944-09-19		2720		9.49						
+USGS	01663500	1945-09-18		7840		15.85						
+USGS	01663500	1946-05-28		5330		13.70						
+USGS	01663500	1947-08-18		4440		12.50						
+USGS	01663500	1947-11-04		15300		19.77						
+USGS	01663500	1949-04-14		12300		18.40						
+USGS	01663500	1950-09-13		7160		15.30						
+USGS	01663500	1950-12-04		19300		21.36						
+USGS	01663500	1952-03-11		7420		15.50						
+USGS	01663500	1952-11-22		12700		18.60						
+USGS	01663500	1954-03-01		4650		12.80						
+USGS	01663500	1955-08-18		33700		25.97						
+USGS	01663500	1956-07-21		4790		12.95						
+USGS	01663500	1956-10-27		3360		10.70						
+USGS	01663500	1958-01-14		4720		12.88						
+USGS	01663500	1959-06-02		6140		14.46						
+USGS	01663500	1959-10-01		5800		14.21						
+USGS	01663500	1961-04-13		6770		15.00						
+USGS	01663500	1962-03-12		4820		12.67						
+USGS	01663500	1963-03-20		4240		12.18						
+USGS	01663500	1964-04-29		5430		13.65						
+USGS	01663500	1965-03-05		8720		16.42						
+USGS	01663500	1966-09-21		5430		13.57						
+USGS	01663500	1967-03-07		7330		15.43						
+USGS	01663500	1968-01-14		5680		13.91						
+USGS	01663500	1969-07-29		5590		13.83						
+USGS	01663500	1969-12-11		4750		12.59						
+USGS	01663500	1970-11-13		7490		15.55						
+USGS	01663500	1972-06-22		25000		23.40						
+USGS	01663500	1973-05-28		8140		16.01						
+USGS	01663500	1973-12-21		6010		14.29						
+USGS	01663500	1975-03-19		17900		20.84						
+USGS	01663500	1976-01-01		5910		14.18						
+USGS	01663500	1976-10-09		26900		24.00						
+USGS	01663500	1978-01-26		14900		19.62						
+USGS	01663500	1979-08-29		28800		24.57						
+USGS	01663500	1980-03-21		8960		16.37						
+USGS	01663500	1981-02-20		2710		9.57						
+USGS	01663500	1982-06-13		4420		12.22						
+USGS	01663500	1983-04-10		11600		18.03						
+USGS	01663500	1984-02-14		21700		22.31						
+USGS	01663500	1985-02-12		8270		16.10						
+USGS	01663500	1985-11-04		29500		24.79						
+USGS	01663500	1987-04-16		9060		16.60						
+USGS	01663500	1987-11-29		7550		15.59						
+USGS	01663500	1989-05-06		4460		12.29						
+USGS	01663500	1990-05-10		2870		9.66						
+USGS	01663500	1990-10-13		20800		21.98						
+USGS	01663500	1992-04-22		13000		18.78						
+USGS	01663500	2002-05-27		2670		8.92						
+USGS	01663500	2003-09-23		11400		19.42						
+USGS	01663500	2004-09-29		11600		19.61						
+USGS	01663500	2005-04-03		8060		15.96						
+USGS	01663500	2005-11-30		9080		18.45						
+USGS	01663500	2006-11-16		4600		11.76						
+USGS	01663500	2008-05-09		5500		12.95						
+USGS	01663500	2009-04-03		2750		9.00						
+USGS	01663500	2010-01-25		11800		19.75						
+USGS	01663500	2011-04-17		13200		21.07						
+USGS	01663500	2011-12-08		4220		11.24						
+USGS	01663500	2013-07-12		10300		16.86						
+USGS	01663500	2014-05-16		17800		20.63						
+USGS	01663500	2015-09-30		12500		18.06						
+USGS	01663500	2016-07-31		7320		14.84						
+USGS	01663500	2017-05-05	17:30	15700		19.66						
+USGS	01663500	2018-06-22	18:45	46100	2	27.49	2		2018-06-22	1615	26.20	
+USGS	01663500	2019-05-05	20:45	4780		13.09						
+USGS	01663500	2019-11-01	04:00	5710		14.50						
+USGS	01663500	2021-06-11	06:45	11900		18.54						
+USGS	01663500	2021-10-29	20:30	7290		16.05						
